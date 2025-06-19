@@ -14,6 +14,10 @@ Para ter acesso aos códigos, acesse a pasta "src" e vá ao código que deseja a
 
 Here in this folder we have slightly more complex aplicattions
 
-To acess the code, click on the "src" folder and go to the code you want to access
+To access the code, click on the "src" folder and go to the code you want to access
 
 -SystemTime - Display a two different codes, one shows the date, time, and others informations of system, every together and a code shows only the time more organized - SystemTime.java
+
+-SystemLanguage - Display a code to access the language acronym and its name. Then, display the country acronym and its name - SystemLanguage.java
+
+-SystemResolution - Display a code to show the screen size - SystemRevolution.java
