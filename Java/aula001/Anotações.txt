@@ -1,0 +1,7 @@
+Aula 001
+
+Algoritimo: 
+É uma descrição das etapas de resolução 
+de um problema ou a indicação ordenada 
+de uma sequência de ações bem-definidas
+
