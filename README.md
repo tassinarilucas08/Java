@@ -1,4 +1,4 @@
-# Java Tassinari
+# TassiJava
 Nesse repositório trarei todas as atualizações dos meus estudos de java
 
 Todos os códigos terão suas versões em português e em inglês. Será uma forma também de testar novos vocabulários para evolução do meu inglês
