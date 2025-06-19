@@ -1,4 +1,4 @@
-## Recursos dos Sistema
+## Recursos do Sistema
 
 Aqui nessa pasta temos algumas aplicações um pouco mais complexas
 
