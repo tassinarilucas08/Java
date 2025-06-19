@@ -6,7 +6,7 @@ Para ter acesso aos códigos, acesse a pasta "src" e vá ao código que deseja a
 
 -HorasDoSistema - Apresenta dois códigos diferentes, um que mostra a data, hora, e outras informações do sistema todas juntas e um código que mostra apenas a hora de maneira mais organizada - HorasDoSistema.java
 
--IdiomaDoSistema - Apresenta um código para acessar o a sigla do idioma, o nome do próprio, assim como a sigla do país e seu respectivo nome - IdiomaDoSistema.java
+-IdiomaDoSistema - Apresenta um código para acessar a sigla do idioma, o nome do próprio, assim como a sigla do país e seu respectivo nome - IdiomaDoSistema.java
 
 -ResoluçãoDoSistema - Apresenta um código para mostrar as definições de resolução de tamanho da tela - ResolucaoDoSistema.java
 
