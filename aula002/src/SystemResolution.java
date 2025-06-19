@@ -8,6 +8,6 @@ public class SystemResolution {
         int width = screenSize.width;
         int height = screenSize.height;
 
-        System.out.println("The system is on "+width+ "x"+height);
+        System.out.println("The system is "+width+ "x"+height);
     }
 }
