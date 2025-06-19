@@ -1,18 +1,19 @@
-## Getting Started
+## Recursos dos Sistema
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Aqui nessa pasta temos algumas aplicações um pouco mais complexas
 
-## Folder Structure
+Para ter acesso aos códigos, acesse a pasta "src" e vá ao código que deseja acessar
 
-The workspace contains two folders by default, where:
+-HorasDoSistema - Apresenta dois códigos diferentes, um que mostra a data, hora, e outras informações do sistema todas juntas e um código que mostra apenas a hora de maneira mais organizada - HorasDoSistema.java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+-IdiomaDoSistema - Apresenta um código para acessar o a sigla do idioma, o nome do próprio, assim como a sigla do país e seu respectivo nome - IdiomaDoSistema.java
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+-ResoluçãoDoSistema - Apresenta um código para mostrar as definições de resolução de tamanho da tela - ResolucaoDoSistema.java
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## System Resources
 
-## Dependency Management
+Here in this folder we have slightly more complex aplicattions
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+To acess the code, click on the "src" folder and go to the code you want to access
+
+-SystemTime - Display a two different codes, one shows the date, time, and others informations of system, every together and a code shows only the time more organized - SystemTime.java

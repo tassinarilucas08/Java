@@ -2,7 +2,7 @@ import java.util.Date;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-public class SystemHour{
+public class SystemTime{
 
     public static void main(String[] args) { 
 
