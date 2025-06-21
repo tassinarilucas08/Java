@@ -6,7 +6,7 @@ Exercícios Básicos de Java (nível iniciante)
 
 1-Imprima seu nome na tela - ImprimeNome.java
 
-2-Some dois números inteiros e imprima o resultado - ResultadoMedia.java
+2-Some dois números inteiros e imprima o resultado - ResultadoSoma.java
 
 3-Calcule a média de três números decimais - MediaNumeros.java
 
