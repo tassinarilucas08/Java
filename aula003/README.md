@@ -25,7 +25,7 @@ Exercícios Básicos de Java (nível iniciante)
 
 10-Verifique se um número é primo - NumeroPrimo.java
 
-11-Crie uma tabuada do número 5 (1 a 10) - TabuadaCinco.java
+11-Crie uma tabuada do número escolhido (1 a 10) - TabuadaNumero.java
 
 12-Crie um programa que leia uma idade e diga se a pessoa é: criança (até 12), adolescente (13-17), adulto (18-59), idoso (60+) - FaixaEtaria.java
 
