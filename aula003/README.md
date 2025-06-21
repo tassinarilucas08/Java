@@ -4,36 +4,36 @@ Aqui eu fiz alguns exerícios básicos para relembrar algumas coisas. Para ter a
 
 Exercícios Básicos de Java (nível iniciante)
 
--Imprima seu nome na tela - ImprimeNome.java
+1-Imprima seu nome na tela - ImprimeNome.java
 
--Some dois números inteiros e imprima o resultado - ResultadoMedia.java
+2-Some dois números inteiros e imprima o resultado - ResultadoMedia.java
 
--Calcule a média de três números decimais - MediaNumeros.java
+3-Calcule a média de três números decimais - MediaNumeros.java
 
--Leia um número e diga se ele é positivo, negativo ou zero - ResultadoNumero.java
+4-Leia um número e diga se ele é positivo, negativo ou zero - ResultadoNumero.java
 
--Verifique se um número é par ou ímpar - ImparParNumber.java
+5-Verifique se um número é par ou ímpar - ImparParNumber.java
 
--Leia dois números e imprima o maior - MaiorNumero.java
+6-Leia dois números e imprima o maior - MaiorNumero.java
 
--Imprima os números de 1 a 10 usando for - ImprimeLista.java
+7-Imprima os números de 1 a 10 usando for - ImprimeLista.java
 
--Imprima os números de 10 a 1 usando while - ImprimeListaContraria.java
+8-Imprima os números de 10 a 1 usando while - ImprimeListaContraria.java
 
--Calcule o fatorial de um número - CalcularFatorial.java
+9-Calcule o fatorial de um número - CalcularFatorial.java
 (ex: fatorial de 5 = 5×4×3×2×1 = 120)
 
--Verifique se um número é primo - NumeroPrimo.java
+10-Verifique se um número é primo - NumeroPrimo.java
 
--Crie uma tabuada do número 5 (1 a 10) - TabuadaCinco.java
+11-Crie uma tabuada do número 5 (1 a 10) - TabuadaCinco.java
 
--Crie um programa que leia uma idade e diga se a pessoa é: criança (até 12), adolescente (13-17), adulto (18-59), idoso (60+) - FaixaEtaria.java
+12-Crie um programa que leia uma idade e diga se a pessoa é: criança (até 12), adolescente (13-17), adulto (18-59), idoso (60+) - FaixaEtaria.java
 
--Leia um caractere e diga se é vogal ou consoante - VogalConsoante.java
+13-Leia um caractere e diga se é vogal ou consoante - VogalConsoante.java
 
--Some os números pares de 1 a 100 - SomaPares.java
+14-Some os números pares de 1 a 100 - SomaPares.java
 
--Imprima os múltiplos de 3 entre 1 e 100 - MultiplosTres.java
+15-Imprima os múltiplos de 3 entre 1 e 100 - MultiplosTres.java
 
 ## Basic Exercices
 
