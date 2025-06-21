@@ -1,3 +1,4 @@
+package portugues;
 import java.util.Locale;
 
 public class IdiomaDoSistema {

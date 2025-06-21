@@ -1,6 +1,6 @@
 ## Recursos do Sistema
 
-Aqui nessa pasta temos algumas aplicações um pouco mais complexas. Para ter acesso aos códigos, acesse a pasta "src" e vá ao código que deseja acessar
+Aqui nessa pasta temos algumas aplicações um pouco mais complexas. Para ter acesso aos códigos, acesse a pasta "src/portugues" e vá ao código que deseja acessar
 
 -HorasDoSistema - Apresenta dois códigos diferentes, um que mostra a data, hora, e outras informações do sistema todas juntas e um código que mostra apenas a hora de maneira mais organizada - HorasDoSistema.java
 
@@ -10,7 +10,7 @@ Aqui nessa pasta temos algumas aplicações um pouco mais complexas. Para ter ac
 
 ## System Resources
 
-Here in this folder we have slightly more complex aplicattions. To access the code, click on the "src" folder and go to the code you want to access
+Here in this folder we have slightly more complex aplicattions. To access the code, click on the "src/english" folder and go to the code you want to access
 
 -SystemTime - Display a two different codes, one shows the date, time, and others informations of system, all together and the other code shows only the time more organized - SystemTime.java
 

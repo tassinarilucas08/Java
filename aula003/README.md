@@ -1,6 +1,6 @@
 ## Exercícios Básicos
 
-Aqui eu fiz alguns exerícios básicos para relembrar algumas coisas. Para ter acesso aos códigos, acesse a pasta "src" e vá ao código que deseja acessar.
+Aqui eu fiz alguns exerícios básicos para relembrar algumas coisas. Para ter acesso aos códigos, acesse a pasta "src/portugues" e vá ao código que deseja acessar.
 
 Exercícios Básicos de Java (nível iniciante)
 
@@ -37,7 +37,7 @@ Exercícios Básicos de Java (nível iniciante)
 
 ## Basic Exercices
 
-Here I did do somes exercices to remember somethings. To access the code, click on the "src" folder and go to the code you want to access
+Here I did do somes exercices to remember somethings. To access the code, click on the "src/english" folder and go to the code you want to access.
 
 Basic Java Exercises (beginner level)
 
