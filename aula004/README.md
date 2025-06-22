@@ -22,12 +22,12 @@ Para acessar os códigos, vá até a pasta `"src/portugues"` e selecione o arqui
 Here in this folder we have Java exercises designed to practice arrays, methods, conditionals, and matrices.  
 To access the code, go to the `"src/english"` folder and choose the file you want.
 
-- **SomaArray** – Reads 5 integers, stores them in an array and shows the total sum – `SomaArray.java`
+- **SumArray** – Reads 5 integers, stores them in an array and shows the total sum – `SumArray.java`
 
-- **ParOuImpar** – Contains a method that identifies if a number is even or odd – `ParOuImpar.java`
+- **EvenOdd** – Contains a method that identifies if a number is even or odd – `EvenOdd.java`
 
-- **TabuadaMetodo** – Method that receives a number and prints the multiplication table from 1 to 10 – `TabuadaMetodo.java`
+- **MultiplicationTableMethod** – Method that receives a number and prints the multiplication table from 1 to 10 – `MultiplicationTableMethod.java`
 
-- **MediaNotas** – Reads 4 grades, calculates the average, and tells if the student is approved, in recovery or failed – `MediaNotas.java`
+- **GradesAverage** – Reads 4 grades, calculates the average, and tells if the student is approved, in recovery or failed – `GradesAverage.java`
 
-- **Matriz2x2** – Creates and displays a 2x2 matrix filled with user input – `Matriz2x2.java`
+- **Matrix2x2** – Creates and displays a 2x2 matrix filled with user input – `Matrix2x2.java`
