@@ -1,19 +1,23 @@
 ## Recursos do Sistema
 
-Aqui nessa pasta temos algumas aplicações um pouco mais complexas. Para ter acesso aos códigos, acesse a pasta "src/portugues" e vá ao código que deseja acessar
+Aqui nessa pasta temos algumas aplicações um pouco mais complexas.  
+Para ter acesso aos códigos, acesse a pasta "src/portugues" e vá ao código que deseja acessar.
 
--HorasDoSistema - Apresenta dois códigos diferentes, um que mostra a data, hora, e outras informações do sistema todas juntas e um código que mostra apenas a hora de maneira mais organizada - HorasDoSistema.java
+- **HorasDoSistema** – Apresenta dois códigos diferentes: um que mostra a data, hora e outras informações do sistema todas juntas, e outro que mostra apenas a hora de maneira mais organizada – `HorasDoSistema.java`
 
--IdiomaDoSistema - Apresenta um código para acessar a sigla do idioma, o nome do próprio, assim como a sigla do país e seu respectivo nome - IdiomaDoSistema.java
+- **IdiomaDoSistema** – Código que acessa a sigla do idioma, o nome completo, a sigla do país e seu respectivo nome – `IdiomaDoSistema.java`
 
--ResoluçãoDoSistema - Apresenta um código para mostrar as definições de resolução de tamanho da tela - ResolucaoDoSistema.java
+- **ResolucaoDoSistema** – Código que exibe as configurações de resolução da tela – `ResolucaoDoSistema.java`
+
+---
 
 ## System Resources
 
-Here in this folder we have slightly more complex aplicattions. To access the code, click on the "src/english" folder and go to the code you want to access
+Here in this folder we have slightly more complex applications.  
+To access the code, click on the "src/english" folder and go to the code you want to access.
 
--SystemTime - Display a two different codes, one shows the date, time, and others informations of system, all together and the other code shows only the time more organized - SystemTime.java
+- **SystemTime** – Displays two different codes: one that shows the date, time, and other system information together, and another that shows only the time in a cleaner way – `SystemTime.java`
 
--SystemLanguage - Display a code to access the language acronym and its name. Then, display the country acronym and its name - SystemLanguage.java
+- **SystemLanguage** – Code to access the language acronym and its full name, as well as the country acronym and its name – `SystemLanguage.java`
 
--SystemResolution - Display a code to show the screen size - SystemResolution.java
+- **SystemResolution** – Code that displays the screen resolution settings – `SystemResolution.java`
