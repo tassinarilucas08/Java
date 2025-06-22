@@ -13,7 +13,7 @@ Para acessar os códigos, vá até a pasta `"src/portugues"` e selecione o arqui
 
 - **MediaNotas** – Lê 4 notas, calcula a média e informa se o aluno está aprovado, em recuperação ou reprovado – `MediaNotas.java`
 
-- **Matriz2x2** – Cria e exibe uma matriz 2x2 com valores fornecidos pelo usuário – `Matriz2x2.java`
+- **Matrizes** – Cria e exibe uma matriz com valores fornecidos pelo usuário – `Matrizes.java`
 
 ---
 
@@ -30,4 +30,4 @@ To access the code, go to the `"src/english"` folder and choose the file you wan
 
 - **GradesAverage** – Reads 4 grades, calculates the average, and tells if the student is approved, in recovery or failed – `GradesAverage.java`
 
-- **Matrix2x2** – Creates and displays a 2x2 matrix filled with user input – `Matrix2x2.java`
+- **Matrix2x2** – Creates and displays a matrix filled with user input – `Matrix2x2.java`

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Matriz2x2 {
+public class Matrizes {
     
     public static int[][] matrizMetodo(){
         Scanner scanner = new Scanner(System.in);
