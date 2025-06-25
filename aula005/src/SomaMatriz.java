@@ -14,7 +14,8 @@ public class SomaMatriz {
              System.out.println("Digite o número para a posição [" + (i+1) + "][" + (z+1) + "]: ");
              matrix[i][z] = scanner.nextInt();
             }
-        }
+        }        
+        scanner.close();
         return matrix;
      }
     }
