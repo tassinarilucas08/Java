@@ -1,7 +1,6 @@
 import java.util.Random;
 
 public class SomaMatriz {
-
     public static int [][] montarMatriz(){
         Random random = new Random();
         int [][] matriz = new int [3][3];

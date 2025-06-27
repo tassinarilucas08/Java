@@ -3,7 +3,7 @@
 Aqui nesta pasta temos exercícios práticos de Java, voltados para treinar o uso de matrizes, revisão de conteúdos anteriores e introdução à programação orientada a objetos.  
 Para acessar os códigos, vá até a pasta `"src/portugues"` e selecione o arquivo desejado.
 
-- **SomaMatriz** – Cria uma matriz 3x3 e exibe a soma das linhas, colunas e total – `SomaMatriz.java`
+- **SomaMatriz** – Cria uma matriz 3x3 e exibe a soma das linhas, colunas e total – `SomaMatriz.java`  
 
 - **DiagonaisMatriz** – Cria uma matriz 4x4, exibe a diagonal principal, secundária e suas somas – `DiagonaisMatriz.java`
 
