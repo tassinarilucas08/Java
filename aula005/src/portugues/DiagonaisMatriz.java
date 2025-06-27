@@ -1,3 +1,4 @@
+package portugues;
 import java.util.Random;
 
 public class DiagonaisMatriz {
