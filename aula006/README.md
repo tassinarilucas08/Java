@@ -1,18 +1,23 @@
-## Getting Started
+## Exercícios de Aquecimento – Lógica Rápida em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Esta pasta contém exercícios simples e rápidos em Java, ideais para aquecer os estudos. São atividades voltadas para lógica básica, uso de estruturas de repetição e manipulação de strings.  
+Os arquivos estão localizados na pasta `"src/portugues"`.
 
-## Folder Structure
+- **SomaPares** – Recebe um número inteiro e retorna a soma de todos os pares até ele – `SomaPares.java`
 
-The workspace contains two folders by default, where:
+- **ContarVogais** – Conta quantas vogais existem em uma palavra digitada – `ContarVogais.java`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Tabuada** – Mostra a tabuada de um número escolhido pelo usuário de 1 a 10 – `Tabuada.java`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Warm-up Exercises – Quick Java Logic
 
-## Dependency Management
+This folder contains simple and fast Java exercises, perfect for warming up your studies. These focus on basic logic, loops, and string handling.  
+Files are located in the `"src/english"` folder.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **EvenSum** – Receives an integer and returns the sum of all even numbers up to it – `EvenSum.java`
+
+- **VowelCounter** – Counts how many vowels exist in a given word – `VowelCounter.java`
+
+- **MultiplicationTable** – Displays the multiplication table of a number from 1 to 10 – `MultiplicationTable.java`
