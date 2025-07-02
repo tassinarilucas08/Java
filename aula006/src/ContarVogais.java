@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ContarVogais {
-    public static void metodoContarVogais(){
+    public static void MetodoContarVogais(){
         int numVogais = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Escolha uma palavra e descubra quantas vogais tem");
@@ -21,6 +21,6 @@ public class ContarVogais {
         scanner.close();
     }
     public static void main(String[] args) {
-        metodoContarVogais();
+        MetodoContarVogais();
     }
 }
