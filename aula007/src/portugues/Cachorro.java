@@ -6,6 +6,6 @@ public class Cachorro {
     String raca;
     
     public void Latir(){
-        System.out.println(nome + "diz: Au au!");
+        System.out.println(nome + " diz: Au au!");
     }
 }
