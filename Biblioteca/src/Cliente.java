@@ -86,12 +86,61 @@ public class Cliente {
         System.out.println("Seja bem vindo " + getName() + " " + getLastName());
     }
     public void fazerCadastro(){
+        System.out.println();
+        System.out.println("Seja bem vindo! Vamos fazer o seu cadastro!");
+
         Scanner scanner = new Scanner(System.in);
+
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.println("Digite seu nome");
         String name = scanner.nextLine();
         setName(name);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        
         System.out.println("Digite seu sobrenome");
         String lastName = scanner.nextLine();
         setLastName(lastName);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        
+        System.out.println("Digite sua senha");
+        String senha = scanner.nextLine();
+        setSenha(senha);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        
+        System.out.println("Digite seu email");
+        String email = scanner.nextLine();
+        setEmail(email);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        
+        System.out.println("Digite seu cpf no formato XXX.XXX.XXX-XX");
+        String cpf = scanner.nextLine();
+        setCpf(cpf);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        
+        System.out.println("Digite seu telefone no formato XX XXXXX-XXXX");
+        String phone = scanner.nextLine();
+        setPhone(phone);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+
+        System.out.println("Digite sua rua");
+        String street = scanner.nextLine();
+        setStreet(street);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        
+        System.out.println("Digite o número da sua casa");
+        int numberHouse = scanner.nextInt();
+        setNumberHouse(numberHouse);
+        System.out.println();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        System.out.println("Seja bem vindo "+getName()+" "+getLastName());
+        System.out.println();
+        scanner.close();
     }    
 }
