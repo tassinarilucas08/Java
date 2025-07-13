@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class Usuario {
     private static int contador = 0;
+    private boolean isLooged = false;
     private int id;
+    private int idType;
     private String name;
     private String lastName;
     private String senha;
@@ -12,8 +14,10 @@ public class Usuario {
     private String street;
     private int numberHouse;
 
-    public Usuario(int id, String name, String lastName, String senha,String email, String cpf, String phone, String street, int numberHouse){
+    public Usuario(boolean isLooged, int id, int idType, String name, String lastName, String senha,String email, String cpf, String phone, String street, int numberHouse){
+        this.isLooged = isLooged;
         this.id = contador++;
+        this.idType = idType;
         this.name = name;
         this.lastName = lastName;
         this.senha = senha;
@@ -26,11 +30,23 @@ public class Usuario {
     public Usuario(){
 
     };
+    public boolean getIsLooged(){
+        return isLooged;
+    }
+    public void setIsLooged(boolean isLooged){
+        this.isLooged = isLooged;
+    }
     public int getId(){
         return id;
     }
     public void setId(int id){
         this.id = id;
+    }
+     public int getIdType(){
+        return idType;
+    }
+    public void setIdType(int idType){
+        this.idType = idType;
     }
     public String getName(){
         return name;

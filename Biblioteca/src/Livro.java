@@ -32,16 +32,4 @@ public class Livro {
         System.err.println("O livro do título " + getTitulo()+ " tem "+ getPags() +" pags"+ " e foi escrito pelo escritor(a) "+ 
         escritor.getName()+" de nacionalidade "+ escritor.getNacionalidade());
     }
-    public void CriarLivro(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Opa! Então vamos adicionar seu livro? Show! Vamos começar");
-        System.out.println("Me diga, você já tem cadastro? Se sim, digite '1' se não digite '2");
-        int numEntrarSistema = scanner.nextInt();
-        if(numEntrarSistema == 1){
-            fazerLogin();
-        }        
-        if(numEntrarSistema == 2){
-            fazerCadastro();
-        }
-    }
 }
