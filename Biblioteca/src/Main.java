@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Cliente cliente = new Cliente();
-        cliente.fazerCadastro();
-        cliente.boasVindas();
+        Usuario usuario = new Usuario();
+        usuario.fazerCadastro();
+        usuario.boasVindas();
     }
 }

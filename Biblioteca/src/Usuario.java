@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Cliente {
+public class Usuario {
     private static int contador = 0;
     private int id;
     private String name;
@@ -12,7 +12,7 @@ public class Cliente {
     private String street;
     private int numberHouse;
 
-    public Cliente(int id, String name, String lastName, String senha,String email, String cpf, String phone, String street, int numberHouse){
+    public Usuario(int id, String name, String lastName, String senha,String email, String cpf, String phone, String street, int numberHouse){
         this.id = contador++;
         this.name = name;
         this.lastName = lastName;
@@ -23,7 +23,7 @@ public class Cliente {
         this.street = street;
         this.numberHouse = numberHouse;
     }
-    public Cliente(){
+    public Usuario(){
 
     };
     public int getId(){
