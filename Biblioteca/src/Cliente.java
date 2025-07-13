@@ -12,10 +12,11 @@ public class Cliente {
     private String street;
     private int numberHouse;
 
-    public Cliente(int id, String name, String lastName, String email, String cpf, String phone, String street, int numberHouse){
+    public Cliente(int id, String name, String lastName, String senha,String email, String cpf, String phone, String street, int numberHouse){
         this.id = contador++;
         this.name = name;
         this.lastName = lastName;
+        this.senha = senha;
         this.email = email;
         this.cpf = cpf;
         this.phone = phone;
@@ -80,8 +81,9 @@ public class Cliente {
         this.numberHouse = numberHouse;
     }
     public void mostrarInfoCliente(){
-        System.out.println("O nome deste cliente é " + getName() + " " + getLastName() + " e o seu email é " + getEmail() + ". O resto você não precisa saber");   
-        }
+        System.out.println("O nome deste cliente é " + getName() + " " + getLastName() + 
+        " e o seu email é " + getEmail() + ". O resto você não precisa saber :)");
+    }
     public void boasVindas(){
         System.out.println("Seja bem vindo " + getName() + " " + getLastName());
     }
@@ -139,7 +141,6 @@ public class Cliente {
         setNumberHouse(numberHouse);
         System.out.println();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
-        System.out.println("Seja bem vindo "+getName()+" "+getLastName());
         System.out.println();
         scanner.close();
     }    
