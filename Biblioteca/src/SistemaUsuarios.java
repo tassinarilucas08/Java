@@ -20,14 +20,19 @@ public class SistemaUsuarios {
             if(email.equals(u.getEmail())){
                 if(senha.equals(u.getSenha())){
                     System.out.println("Seja bem vindo de volta "+ u.getName() + " " + u.getLastName() +"! :)");
+                    u.setIsLogged(true);
+                    return true;
                 }
                 else{
                     System.out.println("Eita! Senha errada :(");
+                    return false;
                 }
             }
             else{
                 System.out.println("Ixi! não tem ninguém cadastrado com esse email :(");
+                return false;
             }
         }
+        return false;
     }
 }
