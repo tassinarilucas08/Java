@@ -141,22 +141,4 @@ public class Usuario {
         System.out.println("\nSeja bem-vindo " + usuario.getName() + " " + usuario.getLastName() + "!");
         return usuario;
     }    
-    // public void FazerLogin(){
-    //     Usuario usuario = new Usuario();
-    //     Scanner scanner = new Scanner(System.in);
-    //     System.out.println("Vamos fazer o seu login!");
-    //     System.out.println();
-    //     System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
-    //     System.out.println();
-    //     System.out.print("Email: ");
-    //     String email = scanner.nextLine();
-    //     System.out.println();
-    //     System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
-    //     System.out.println();
-    //     System.out.print("Senha: ");
-    //     System.out.println();
-    //     System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
-    //     System.out.println();
-    //     String senha = scanner.nextLine();
-    // }
 }
