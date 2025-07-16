@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import java.util.Scanner;
 public class Biblioteca{
 
     ArrayList<Livro> livros = new ArrayList<>(); 
@@ -19,23 +19,37 @@ public class Biblioteca{
     public void mostrarLivros(){
         for(Livro livro : livros){
             livro.mostrarInfoLivro();
+        }}
+        
+    public void cadastrarLivro(Scanner scanner){
+        System.out.println("Quantos livros deseja cadastrar?");
+        int qtd = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Você vai cadastrar "+qtd+" livros!");
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+
+        for(int i=0; i<qtd; i++){
+            System.out.println("\nVamos começar!");
+            System.out.print("\nQual o nome do autor? ");
+            String nome = scanner.nextLine();
+            System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+            System.out.print("\nQual a nacionalidade do autor? ");
+            String nacionalidade = scanner.nextLine();
+            System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+            System.out.print("\nQual o título do livro? ");
+            String titulo = scanner.nextLine();
+            System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+            System.out.print("\nQuantas páginas tem o livro? ");
+            int pags = scanner.nextInt();
+            System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+            criarLivroComEscritor(nome, titulo, pags, nacionalidade);
+           }
         }
-    }
-     public void criarLivroComEscritor(String nome, String nacionalidade, String titulo, int pags) {
+     public void criarLivroComEscritor(String nome, String titulo, int pags, String nacionalidade) {
         Escritor escritor = new Escritor(nome, nacionalidade);
         Livro livro = new Livro(titulo, pags, escritor);
 
         adicionarEscritor(escritor);
         adicionarLivro(livro);
-    }
-
-    public static void main(String[] args) {
-
-        Biblioteca biblioteca = new Biblioteca();
-
-        biblioteca.criarLivroComEscritor("J.K. Rowling", "Britânica", "Harry Potter e o Cálice de Fogo", 480);
-        biblioteca.criarLivroComEscritor("E.Kuball", "Brasileiro", "Tudo dá certo no final", 333);
-
-        biblioteca.mostrarLivros();
     }
 }

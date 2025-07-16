@@ -3,19 +3,29 @@ import java.util.Scanner;
 
 public class SistemaUsuarios {
     private ArrayList<Usuario> usuarios = new ArrayList<>();
-    public void cadastrarUsuario(){
-        Usuario usuario = Usuario.fazerCadastro();
+    public void cadastrarUsuario(Scanner scanner){
+        Usuario usuario = Usuario.fazerCadastro(scanner);
         usuarios.add(usuario);
     } 
-    public boolean validarLogin(){
-        Scanner scanner = new Scanner(System.in);
+    public void listarUsuarios(){
+        if(usuarios.isEmpty()){
+            System.out.println("Nenhum usuário cadastrado!");
+        }else{
+            System.out.println("\n--- Lista de Usuários ---");
+            for(Usuario u:usuarios){
+            System.out.println("ID: "+ u.getId() + " | Nome: "+ u.getName() +" "+u.getLastName()+" | Email: "+u.getEmail());
+            }
+        }
+        
+    }
+    public boolean validarLogin(Scanner scanner){
         System.out.println("Vamos fazer o login!");
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.print("Digite o email :\n");
         String email = scanner.nextLine();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.print("Digite a senha: ");
-        String senha = scanner.nextLine();
+        String senha = scanner.nextLine();        
         for (Usuario u : usuarios){
             if(email.equals(u.getEmail())){
                 if(senha.equals(u.getSenha())){
