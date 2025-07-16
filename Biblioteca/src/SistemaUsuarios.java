@@ -15,10 +15,9 @@ public class SistemaUsuarios {
             for(Usuario u:usuarios){
             System.out.println("ID: "+ u.getId() + " | Nome: "+ u.getName() +" "+u.getLastName()+" | Email: "+u.getEmail());
             }
-        }
-        
+        }        
     }
-    public boolean validarLogin(Scanner scanner){
+    public Usuario validarLogin(Scanner scanner){
         System.out.println("Vamos fazer o login!");
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.print("Digite o email :\n");
@@ -26,23 +25,24 @@ public class SistemaUsuarios {
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         System.out.print("Digite a senha: ");
         String senha = scanner.nextLine();        
+
         for (Usuario u : usuarios){
             if(email.equals(u.getEmail())){
                 if(senha.equals(u.getSenha())){
                     System.out.println("Seja bem vindo de volta "+ u.getName() + " " + u.getLastName() +"! :)");
                     u.setIsLogged(true);
-                    return true;
+                    return u;
                 }
                 else{
                     System.out.println("Eita! Senha errada :(");
-                    return false;
+                    return null;
                 }
             }
             else{
                 System.out.println("Ixi! não tem ninguém cadastrado com esse email :(");
-                return false;
+                return null;
             }
         }
-        return false;
+        return null;
     }
 }

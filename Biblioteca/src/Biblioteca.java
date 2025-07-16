@@ -5,6 +5,22 @@ public class Biblioteca{
     ArrayList<Livro> livros = new ArrayList<>(); 
     ArrayList<Escritor> escritores = new ArrayList<>();
 
+    public void alugarLivro(Scanner scanner){
+        System.out.print("Quantos livros deseja alugar?");
+        int qtd = scanner.nextInt();
+        for(int i=0; i<qtd; i++){
+            System.out.println("Qual o nome do livro?");
+            String nomeLivro = scanner.nextLine();
+            for(Livro livro : livros){
+                if(nomeLivro.toUpperCase() == livro.getTitulo().toUpperCase()){
+                    System.out.println("Você alugou o livro: "+livro.getTitulo());
+                }
+                else{
+                    System.out.println("Vish... Infelizmente não temos esse");
+                }
+            }           
+        }
+    }
     public void adicionarLivro(Livro livro){
         livros.add(livro);
     }
@@ -43,6 +59,7 @@ public class Biblioteca{
             int pags = scanner.nextInt();
             System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
             criarLivroComEscritor(nome, titulo, pags, nacionalidade);
+            System.out.println("Você cadastrou o livro: " +titulo+ ". Parabéns!");
            }
         }
      public void criarLivroComEscritor(String nome, String titulo, int pags, String nacionalidade) {
