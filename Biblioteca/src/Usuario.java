@@ -13,8 +13,9 @@ public class Usuario {
     private String phone;
     private String street;
     private int numberHouse;
+    private double dinheiro;
 
-    public Usuario(String name, String lastName, String senha, String email, String cpf, String phone, String street, int numberHouse) {
+    public Usuario(String name, String lastName, String senha, String email, String cpf, String phone, String street, int numberHouse, double dinheiro) {
     this.id = contador++;
     this.idType = 1;
     this.name = name;
@@ -25,6 +26,7 @@ public class Usuario {
     this.phone = phone;
     this.street = street;
     this.numberHouse = numberHouse;
+    this.dinheiro = dinheiro;
     this.isLogged = false;
     }
     public Usuario(){
@@ -96,6 +98,12 @@ public class Usuario {
     public void setNumberHouse(int numberHouse){
         this.numberHouse = numberHouse;
     }
+    public void setDinheiro(double dinheiro){
+        this.dinheiro = dinheiro;
+    }
+    public double getDinheiro(){
+        return dinheiro;
+    }
     public static Usuario fazerCadastro(Scanner scanner){
 
         System.out.println("\nSeja bem vindo! Vamos fazer o seu cadastro!\n");
@@ -117,6 +125,10 @@ public class Usuario {
         String email = scanner.nextLine();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         
+        System.out.print("Digite o valor que tem pra gastar: ");
+        double dinheiro = scanner.nextInt();
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+        
         System.out.print("Digite seu cpf no formato XXX.XXX.XXX-XX: ");
         String cpf = scanner.nextLine();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
@@ -134,7 +146,7 @@ public class Usuario {
         scanner.nextLine();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------\n");
 
-        Usuario usuario = new Usuario(name, lastName, senha, email, cpf, phone, street, numberHouse);
+        Usuario usuario = new Usuario(name, lastName, senha, email, cpf, phone, street, numberHouse, dinheiro);
 
         System.out.println("\nSeja bem-vindo " + usuario.getName() + " " + usuario.getLastName() + "!");
         return usuario;
