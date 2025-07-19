@@ -15,9 +15,9 @@ public class Usuario {
     private int numberHouse;
     private double dinheiro;
 
-    public Usuario(String name, String lastName, String senha, String email, String cpf, String phone, String street, int numberHouse, double dinheiro) {
+    public Usuario(String name, String lastName, String senha, String email, int idType, String cpf, String phone, String street, int numberHouse, double dinheiro) {
     this.id = contador++;
-    this.idType = 1;
+    this.idType = idType;
     this.name = name;
     this.lastName = lastName;
     this.senha = senha;
@@ -125,6 +125,21 @@ public class Usuario {
         String email = scanner.nextLine();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         
+        int idType = 0;
+        while (true) {
+            System.out.println("Escolha seu tipo de usuário");
+            System.out.println("[1] Cliente");
+            System.out.println("[2] Escritor");  
+        idType = scanner.nextInt();        
+            if(idType == 1 || idType == 2) {
+                break;
+        } 
+            else{
+        System.out.println("Opção inválida. Tente novamente.");
+        }
+    }
+        System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
+
         System.out.print("Digite o valor que tem pra gastar: ");
         double dinheiro = scanner.nextInt();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
@@ -146,7 +161,7 @@ public class Usuario {
         scanner.nextLine();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------\n");
 
-        Usuario usuario = new Usuario(name, lastName, senha, email, cpf, phone, street, numberHouse, dinheiro);
+        Usuario usuario = new Usuario(name, lastName, senha, email, idType, cpf,phone, street, numberHouse, dinheiro);  
 
         System.out.println("\nSeja bem-vindo " + usuario.getName() + " " + usuario.getLastName() + "!");
         return usuario;

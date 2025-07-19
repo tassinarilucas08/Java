@@ -51,16 +51,6 @@ public class Menus {
             }
         }
 }
-    public static void executarCadastroUsuario(Scanner scanner) {
-        sistemaUsuarios.cadastrarUsuario(scanner);
-    }
-    
-    public static void executarLogin(Scanner scanner) {
-        Usuario logado = sistemaUsuarios.validarLogin(scanner);
-        if (logado != null) {
-            usuarioLogado = logado;
-        }
-    }
 
         public static void menuBibliotecaCliente(Scanner scanner){
         int opcao = 0;
@@ -126,27 +116,38 @@ public static void menuBibliotecaAdm(Scanner scanner){
 
             switch (opcao) {
                 case 1:
-                    executarCadastroUsuario(scanner);
-                    menuPrincipal(scanner);
+                    executarCadastroUsuario(scanner)
+                    menuBibliotecaAdm(scanner);
                     break;
                 case 2:
-                    excluirUsuario(scanner);
-                    menuPrincipal(scanner);
+                    sistemaUsuarios.excluirUsuario(scanner);
+                    menuBibliotecaAdm(scanner);
                     break;
                  case 3:
-                    adicionarLivro(scanner);
-                    menuPrincipal(scanner);
+                    biblioteca.cadastrarLivro(scanner);
+                    menuBibliotecaAdm(scanner);
                     break;
                 case 4:
-                    executarLogin(scanner);
-                    menuPrincipal(scanner);
+                    biblioteca.excluirLivro(scanner);
+                    menuBibliotecaAdm(scanner);
                     break;
                 case 5:
-                    System.out.println("Saindo do sistema...");
+                    menuPrincipal(scanner);
                     break;
                 default:
                     System.out.println("Opção inválida! Tente novamente.");
             }
+        }
+    }    
+    
+    public static void executarCadastroUsuario(Scanner scanner) {
+        sistemaUsuarios.cadastrarUsuario(scanner);
+    }
+    
+    public static void executarLogin(Scanner scanner) {
+        Usuario logado = sistemaUsuarios.validarLogin(scanner);
+        if (logado != null) {
+            usuarioLogado = logado;
         }
     }
 }
