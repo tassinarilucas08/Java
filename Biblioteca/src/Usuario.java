@@ -141,7 +141,8 @@ public class Usuario {
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
 
         System.out.print("Digite o valor que tem pra gastar: ");
-        double dinheiro = scanner.nextInt();
+        double dinheiro = scanner.nextDouble();
+        scanner.nextLine();
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");
         
         System.out.print("Digite seu cpf no formato XXX.XXX.XXX-XX: ");

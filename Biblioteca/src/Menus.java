@@ -43,6 +43,10 @@ public class Menus {
                             break;
                         }
                     }
+                        else{
+                            System.out.println("Faça login primeiro!");
+                            menuPrincipal(scanner);
+                    }
                 case 4:
                     System.out.println("Saindo do sistema...");
                     break;
