@@ -17,6 +17,18 @@ public class SistemaUsuarios {
             }
         }        
     }
+    public void excluirUsuario(Scanner scanner){
+        System.out.println("Qual usuário deseja excluir? ");
+        int idUser = scanner.nextInt();
+        scanner.nextLine();
+
+        for(int i = 0; i<usuarios.size(); i++){
+            if(usuarios.get(i).getId() == idUser){
+                Usuario removido = usuarios.remove(i);
+                System.out.println("O usuário "+ removido.getName() +" "+ removido.getLastName() + " foi removido com sucesso");
+            }
+        }
+    }
     public Usuario validarLogin(Scanner scanner){
         System.out.println("Vamos fazer o login!");
         System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------");

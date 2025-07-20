@@ -43,6 +43,18 @@ public class Biblioteca{
             }
         }
     }
+    public void excluirLivro(Scanner scanner){
+        System.out.print("Qual o livro deseja excluir? ");
+        String nomeLivro = scanner.nextLine();
+        for(int i = 0; i < livros.size(); i++){
+            if(nomeLivro.toUpperCase().equals(livros.get(i).getTitulo().toUpperCase())){
+                livros.remove(i);
+                System.out.println("O livro "+ nomeLivro +" foi removido com sucesso");
+                break;
+            }
+        }
+        System.out.println("Livro não encontrado");
+    }
     public void adicionarLivro(Livro livro){
         livros.add(livro);
     }

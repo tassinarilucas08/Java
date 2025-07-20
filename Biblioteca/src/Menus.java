@@ -31,15 +31,15 @@ public class Menus {
                 case 3:
                     if(usuarioLogado != null && usuarioLogado.getIsLogged()){
                         if(usuarioLogado.getIdType() == 1){
-                            menuBibliotecaAdm(scanner);
-                            break;
-                        }
-                        else if(usuarioLogado.getIdType() == 2){
                             menuBibliotecaCliente(scanner);
                             break;
                         }
-                        else{
+                        else if(usuarioLogado.getIdType() == 2){
                             menuBibliotecaEscritor(scanner);
+                            break;
+                        }
+                        else{
+                            menuBibliotecaAdm(scanner);
                             break;
                         }
                     }
@@ -55,10 +55,11 @@ public class Menus {
         public static void menuBibliotecaCliente(Scanner scanner){
         int opcao = 0;
 
-        while (opcao !=2) {
+        while (opcao !=3) {
             System.out.println("\n--- MENU PRINCIPAL ---");
             System.out.println("[1] Alugar Livro");
-            System.out.println("[2] Voltar ao menu principal");
+            System.out.println("[2] Comprar Livro");
+            System.out.println("[3] Voltar ao menu principal");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
             scanner.nextLine(); // limpa o buffer
@@ -66,8 +67,13 @@ public class Menus {
             switch (opcao) {
                 case 1:
                     biblioteca.alugarLivro(scanner);
+                    menuPrincipal(scanner);
                     break;
                 case 2:
+                    biblioteca.comprarLivro(scanner, usuarioLogado);
+                    menuPrincipal(scanner);
+                    break;
+                case 3:
                     menuPrincipal(scanner);
                     break;
                 default:
@@ -90,6 +96,7 @@ public class Menus {
             switch (opcao) {
                 case 1:
                     biblioteca.cadastrarLivro(scanner);
+                    menuPrincipal(scanner);
                     break;
                 case 2:
                     menuPrincipal(scanner);
@@ -116,7 +123,7 @@ public static void menuBibliotecaAdm(Scanner scanner){
 
             switch (opcao) {
                 case 1:
-                    executarCadastroUsuario(scanner)
+                    executarCadastroUsuario(scanner);
                     menuBibliotecaAdm(scanner);
                     break;
                 case 2:
